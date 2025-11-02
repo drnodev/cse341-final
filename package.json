@@ -1,0 +1,30 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "cse 341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drnodev/cse341-final.git"
+  },
+  "author": "Nelson Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drnodev/cse341-final/issues"
+  },
+  "homepage": "https://github.com/drnodev/cse341-final#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "16.0.3",
+    "express": "^4.21.2",
+    "mongodb": "6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
